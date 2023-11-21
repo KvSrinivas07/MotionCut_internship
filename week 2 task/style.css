@@ -1,0 +1,40 @@
+body{
+  background-size: cover;
+  background-attachment: fixed;
+  color: black;
+  background-color: rgba(57,179,250,0.7);
+  background-blend-mode: multiply;
+  font-size: 1.1em;
+  font-family: 'poppins', sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
